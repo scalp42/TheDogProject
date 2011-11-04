@@ -8,6 +8,9 @@ gem 'rails', '3.1.1'
 gem 'pg'
 gem 'thin'
 gem 'foreigner'
+gem 'factory_girl_rails'
+gem 'gravatar_image_tag'
+gem "recaptcha", :require => "recaptcha/rails"
 
 
 # Gems used only for assets and not required

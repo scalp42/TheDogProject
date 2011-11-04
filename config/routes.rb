@@ -7,6 +7,7 @@ TheDogProject::Application.routes.draw do
   match "/contact", :to => "pages#contact"
   match "/about",  :to => "pages#about" 
   match "/signup", :to => "users#new"
+  match "/signin", :to => "users#verify"
 
   resources :posts
 
